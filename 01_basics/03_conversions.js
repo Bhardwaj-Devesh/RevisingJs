@@ -8,6 +8,12 @@ let num = Number(score);
 
 
 /*
+    ------------ Understand the conversion to number -------------------
+    String to number
+    -> We can convert the string into number just by put '+' (addition symbol) at prefix of the string
+       or we put '-' (minus symbol) all but not multiplication or division.
+    -> We can also convert to number through a function parseInt("")
+
     when we are trying to convert into numbers
     if datatype is undefined we will get -> NaN (not a number ) but typeof will be number
     null -> 0 typeof-> number
@@ -15,6 +21,10 @@ let num = Number(score);
     "88"-> 88 , typeof -> number
     "44ad"-> NaN, typeof -> number
     true -> 1 , typeof -> number and similarly false -> 0 ,typeof-> number
+    
+    number to string
+    -> just add empty string in prefix or postfix it will convert everything in string
+    
 */
 
 let value = " ";
