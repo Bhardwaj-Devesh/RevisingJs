@@ -42,3 +42,11 @@ console.log(typeof(booleanValue));
     ""-> false typeof boolean
     " " -> true typeof boolean
 */
+let fullName = "Devesh Bhardwaj";
+
+let modifyName=fullName.replace("Devesh","        Devesh Sharma          ").trim().split(" ");
+
+
+/*
+    Create the range of number from 10 - 20 using Math.random() Math.floor()
+*/
