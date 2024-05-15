@@ -35,3 +35,47 @@ updatedUser.name = "Devesh";
 console.log(user, updatedUser);// it is changed without interfaring others but if we change the address then both the object will affect
 
 
+/*............Rest Parameters ........*/
+
+// Rest Parameters has to put at end arguments 
+// They form a array of all the rest variables  
+// function sum(...nums){// -> These parameters are called Rest Parameters
+//     let total = 0;
+//     for(let i=0;i<nums.length;i++){
+//         debugger;
+//         total = total + nums[i];
+//     }
+//     console.log(total);
+// }
+
+
+let arr = [1,2,3,4 ,{
+    firstName : "Devesh",
+    lastName : "Bhardwaj",
+    address:{
+        city : "Delhi",
+        pincode : 123123
+    }
+}]
+sum(...arr);
+
+// Javascript convert the object into string and concatinate it.
+
+/* ..............Destructuring .......... */
+
+const colors = ["red", "yellow", "pink", "orange", "white"];
+
+// I want to access these elements in one line
+
+const [a,b,c] = colors; 
+const[,,,thirdColor] = colors;
+// We know that behind the seen array is a object having key value pair as index : value
+const {3:thirdColr} = colors;
+
+const {firstName} = user;
+const {firstName : fNmae , lastName} = user; // we can rename like this in case of object
+
+const {address : {city : homecity}} = user;// multi destructuring
+
+// NOTE : to see anything as a object use console.dir(object_name);
+
