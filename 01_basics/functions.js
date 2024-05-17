@@ -46,7 +46,7 @@ const object = {
     // This is a new way to make the method
 }
 
-/* First Class funtions : ability to act like a value (as we can use function a parameters, arguments return)*/
+/* First Class funtions (first class citizen): ability to act like a value (as we can use function a parameters, arguments return)*/
 
 // Difference between parameters and arguments
 /* 
@@ -56,3 +56,7 @@ function function_name1(param1, param2){
 
 function_name1(1,2);// arguments
 */
+
+
+/* Higher order function*/
+/* A function which take function as an argument or returns a function is called Higher order function */
