@@ -1,5 +1,5 @@
 
-// function declaration
+// function declaration also know as (aka) function statement
 function function_name(){
 
 }
@@ -11,7 +11,7 @@ const a = function (){
 
 }
 /*
-    we can also give name to expression function which can only use inside itself
+    we can also give name to expression function which can only use inside itself this type of function is called named function
 */
 
 
@@ -45,3 +45,14 @@ const object = {
     }
     // This is a new way to make the method
 }
+
+/* First Class funtions : ability to act like a value (as we can use function a parameters, arguments return)*/
+
+// Difference between parameters and arguments
+/* 
+function function_name1(param1, param2){
+    
+}
+
+function_name1(1,2);// arguments
+*/
